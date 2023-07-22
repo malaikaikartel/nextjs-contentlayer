@@ -37,6 +37,16 @@ export default function RootLayout({ children }: RootLayoutProps) {
           </div>
           <Analytics />
         </ThemeProvider>
+<script type="text/javascript">
+	atOptions = {
+		'key' : '4d0166a73e7b790f26f240ab9d39e042',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplaynetwork.com/4d0166a73e7b790f26f240ab9d39e042/invoke.js"></scr' + 'ipt>');
+</script>
       </body>
     </html>
   )
