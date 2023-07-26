@@ -4,7 +4,21 @@ import { Inter } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Analytics } from "@/components/analytics"
 import { ModeToggle } from "@/components/mode-toggle"
+import { Adsense } from "@ctrl/react-adsense";
 
+function Ads() {
+  return (
+    <div className="text-center adsbygoogle my-3">
+      <Adsense
+        client="ca-pub-6389784149267865"
+        slot="6486641123"
+        style={{ display: "block" }}
+        layout="in-article"
+        format="fluid"
+      />
+    </div>
+  );
+}
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
@@ -37,7 +51,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
           </div>
           <Analytics />
         </ThemeProvider>
-
+<Adsense
+  client="ca-pub-6389784149267865"
+  slot="6486641123"
+/>
       </body>
     </html>
   )
